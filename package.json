@@ -1,8 +1,9 @@
 {
   "name": "wisp-server",
   "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "start": "npx @mercuryworkshop/wisp-js server --port $PORT"
+    "start": "wisp-js-server --port $PORT"
   },
   "dependencies": {
     "@mercuryworkshop/wisp-js": "latest"
